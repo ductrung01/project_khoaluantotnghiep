@@ -4,7 +4,7 @@ import com.dan.shoe.perfume.dtos.requests.ChangePasswordForm;
 import com.dan.shoe.perfume.dtos.requests.LoginForm;
 import com.dan.shoe.perfume.dtos.requests.SignupForm;
 import com.dan.shoe.perfume.dtos.requests.UpdateProfile;
-import com.dan.shoe.shoe.dtos.requests.*;
+import com.dan.shoe.perfume.dtos.requests.*;
 import com.dan.shoe.perfume.dtos.responses.LoginResponse;
 import com.dan.shoe.perfume.dtos.responses.ResponseMessage;
 import com.dan.shoe.perfume.models.Role;

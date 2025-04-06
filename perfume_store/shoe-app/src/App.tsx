@@ -17,6 +17,7 @@ import ProductDetail from './components/home/product-page/ProductDetail';
 import Intro from './layouts/Intro';
 import Contact from './layouts/Contact';
 import ForgotPassword from './components/auth/ForgotPassword';
+// import Chatbot from "./ChatBox";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/auth/verify" element={<AccountVerification />} />
             <Route path="/" element={
               <Home>
+                {/*<Chatbot/>*/}
                 <HomePage />
               </Home>
             } />
